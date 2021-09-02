@@ -11,7 +11,9 @@
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
                     <home-profile/>
                     <contact-profile/>
-                    <about-profile/>
+                    <router-view>
+                        <about-profile/>
+                    </router-view>
                 </div>
             </div>
         </div>
